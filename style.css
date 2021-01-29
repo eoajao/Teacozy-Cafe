@@ -1,0 +1,191 @@
+body
+{background-color:black;
+
+}   
+
+
+.menu
+{
+    text-decoration: underline;
+    display:inline-block;
+    position: relative;  
+    
+}
+nav a {
+    color: seashell;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:  1.38rem;
+    width: 100%;
+}
+.container {
+    display:flex;
+    justify-content:space-between;
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    position:  fixed;
+    top: 0%;
+    width: 100%;
+   background-color: black;
+   align-items: center;
+      
+}
+
+#logo {
+    height:50px;
+}
+
+.position
+{
+    display: inline-flex;
+    justify-content: space-around;
+    width: 40%;
+
+}
+
+    .main
+    {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.background {
+    background-image:url(../Resources/img-mission-background.webp);   
+    height:700px;
+    Display: flex;
+    align-items: center;
+    background-position: 50% 0%;  
+    background-repeat: no-repeat;
+    width: 100%;
+    
+    
+
+    
+       
+}
+
+.description {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: seashell;
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    
+    
+}
+  
+.teas_container {
+    
+    width: 1200px;        
+    Display: flex;
+    justify-content: center; 
+}
+
+.tea_description {
+    text-align: center;
+    width: 1200px;
+    height: 100px;  
+    padding-left: 10rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: seashell;
+    
+  
+}
+
+.middle {
+    display:flex; 
+    padding-left: 6.25rem;
+    justify-content: center; 
+         
+}
+figure {
+    margin-right: 0px;
+}
+.teas{
+display:inline-flex;
+flex-wrap: wrap; 
+justify-content: center;
+margin-right: 40px;
+
+
+}
+
+.teas img
+{
+    height: 200px;
+    width: 300px;
+}   
+.last {
+    display: flex;
+    justify-content: center;
+}
+.location
+{
+ background-image: url(../Resources/img-locations-background.webp);
+ background-position: center;   
+  height: 500px;
+  width: 100%;
+  display: inline-flex;
+ flex-wrap: wrap; 
+ justify-content: center;
+ background-repeat: no-repeat;
+ 
+}
+
+
+
+
+#specific
+{   font-family: Arial, Helvetica, sans-serif;
+    color: seashell;
+    font-weight: bold; 
+    margin-left: -35px;
+    text-align: center;
+}
+.heading
+{
+    display: flex;
+    justify-content: center;
+    width: 1200px;  
+    height: 0px;
+       
+}
+.address, .caption {
+    color:seashell;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+.content {
+    display: inline-flex;
+    align-items: flex-start;    
+    justify-content: space-around; 
+          
+}
+
+.first, .second, .third{
+    display: flex;
+    background-color: black;
+    width: 300px;
+    direction: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-right: 40px;    
+}
+
+
+.final {
+    display: flex;
+    height: 200px;
+    flex-direction: column; 
+    align-items: center;
+   
+}
+
+@media only screen and (max-width: 480px){
+.main, .last {
+min-width: 1000px;
+padding: 0% 25% 0% 25%;
+  }
+     
+ }
+ 
